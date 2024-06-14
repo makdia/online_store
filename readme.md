@@ -23,12 +23,15 @@ The Laravel Ecommerce Project with Complete Source Code is a PHP-based web appli
 -   Composer Version 2 
 ## Installation Steps 
 
-1.  <code> install composer </code>
-2. Create database for  your project with the name as <code>online_store</code>
-3. Now Run <code>php artisan migrate</code> command for creating all the tables 
-4. Create <code>.env</code> file and add your configuration
-5. Start yor project using <code>php artisan serve</code>
-6. Finished, Now Check it in your browser using http://127.0.0.1:8000
+1. Clone the repository
+2. Navigate to the project directory : <code> cd online_store </code>
+3. Install dependencies <code> composer install </code>
+4. Create database for  your project with the name as <code>online_store</code>
+5. Copy .env.example to .env and configure your database settings in the .env file
+6. Generate application key <code>php artisan key:generate</code>
+7. Now Run <code>php artisan migrate</code> command for creating all the tables 
+8. Start the local development server :  <code>php artisan serve</code>
+9. Finished, Now Check it in your browser using http://127.0.0.1:8000
 
 ### Dashboard Details
 - Admin : http://127.0.0.1:8000/admin-dash
